@@ -1,0 +1,110 @@
+* {
+  margin: 0px;
+  font-family: 'ROBOTO';
+}
+
+.login-container {
+  background-color: #fff;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-card-container {
+  background-color: #fff;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  border-radius: 10px;
+  padding: 30px;
+}
+.nxt-watch-logo {
+  width: 270px;
+  padding: 45px;
+  padding-right: 20px;
+  padding-top: 0px;
+}
+.user-label {
+  font-size: 13px;
+  color: #7e858e;
+  font-weight: 500;
+}
+
+.password-label {
+  font-size: 13px;
+  color: #7e858e;
+  font-weight: 500;
+}
+.user-input-field {
+  width: 300px;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 18px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #7e858e;
+}
+.password-input-field {
+  width: 300px;
+  padding: 8px;
+  margin-top: 4px;
+  margin-bottom: 9px;
+  border-radius: 3px;
+  outline: none;
+  border: 1px solid #7e858e;
+}
+.check-box-input {
+  height: 16px;
+  width: 16px;
+  margin-left: 5px;
+}
+.check-box-container {
+  display: flex;
+}
+.show-password-label {
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 7px;
+}
+.button-card {
+  margin-top: 23px;
+  display: flex;
+  justify-content: center;
+}
+.login-button {
+  width: 300px;
+
+  border-radius: 5px;
+  border: 1px solid #3b82f6;
+  background-color: #3b82f6;
+  color: #fff;
+  font-weight: 500;
+  font-size: 13px;
+  padding: 8px;
+}
+.error-message {
+  color: red;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 767px) {
+  .login-container {
+    background-size: cover;
+    height: 100vh;
+    padding: 100px;
+  }
+  .nxt-watch-logo {
+    width: 180px;
+    padding: 20px;
+    margin-left: 70px;
+  }
+  .login-card-container {
+    padding: 10px;
+  }
+  .form-container {
+    padding: 10px;
+  }
+}
